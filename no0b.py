@@ -1,0 +1,10 @@
+a="101"
+b=int(a,2)
+print(b)
+print(type(b))
+c=int(a,8)
+d=int(a,16)
+print(c)
+print(d)
+print(type(c))
+print(type(d))
