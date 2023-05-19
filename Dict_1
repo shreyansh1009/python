@@ -1,0 +1,13 @@
+marks = {"Mayank": 23 , "Harsh" : 42 , "Megha": 23}
+print(marks)
+sv = sorted(marks.items(),key = lambda x : x[1])#sort
+by value in ascending
+print(sv)
+sv = sorted(marks.items(),reverse = True,key =
+lambda x : x[1])#sort by value in Descending
+print(sv)
+2.
+d1 = {1:"a",2:"b"}
+d2 = {3:"c"}
+d1.update(d2)
+print(d1)

@@ -1,0 +1,16 @@
+import string
+import random
+a = list(string.ascii_letters)
+pss = ""
+n = int(input("Enter the Lenght of Pass:"))
+x = int(n/2)
+if n % 2==0:
+ for i in range(x):
+     pss += random.choice(a)
+     pss += random.choice(list(string.digits))
+else :
+  for i in range(x):
+     pss += random.choice(a)
+     pss += random.choice(list(string.digits))
+  pss+=random.choice(list(string.digits))
+print(pss)
